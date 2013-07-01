@@ -6,8 +6,8 @@
 [hub]
         protocol = https
 [user]
-        name = Sean Doyle
-        email = sean.p.doyle24@gmail.com
+        name = David Myers
+        email = davidmyers9000@gmail.com
         helper = osxkeychain
 [alias]
         co = checkout
