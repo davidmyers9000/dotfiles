@@ -7,7 +7,7 @@
         name = David Myers
         email = davidmyers9000@gmail.com
 [credential]
-        helper = /opt/boxen/bin/boxen-git-credential
+	helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
@@ -36,3 +36,5 @@
         #
         # Setting to git 2.0 default to surpress warning message
         default = simple
+[gui]
+	recentrepo = /Users/Dave/src/biomed.drexel.edu
