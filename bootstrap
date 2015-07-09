@@ -1,0 +1,44 @@
+Script started on Thu Jul  9 12:19:34 2015
+[1m[7m%[27m[1m[0m                                                                                ]2;n1-22-48[0m[27m[24m[J
+[01;33m2.0.0[00m in [01;36m.dotfiles/[00m on [01;32mmaster[00m 
+› [K[77C[01;36m[00m[77Dssubl .
+zsh: command not found: subl
+[1m[7m%[27m[1m[0m                                                                                ]2;n1-22-48[0m[27m[24m[J
+[01;33m2.0.0[00m in [01;36m.dotfiles/[00m on [01;32mmaster[00m 
+› [K[77C[01;36m[00m[77Dsscript bio   /bootstrap
+
+  [ [00;34m..[0m ] installing dotfiles  [ [0;33m?[0m ] File already exists: gitconfig.symlink, what do you want to do? [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all? o[2K  [ [00;32mOK[0m ] removed /Users/Dave/.gitconfig
+[2K  [ [00;32mOK[0m ] linked /Users/Dave/.dotfiles/git/gitconfig.symlink to /Users/Dave/.gitconfig
+  [ [0;33m?[0m ] File already exists: gitignore.symlink, what do you want to do? [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all? O[2K  [ [00;32mOK[0m ] removed /Users/Dave/.gitignore
+[2K  [ [00;32mOK[0m ] linked /Users/Dave/.dotfiles/git/gitignore.symlink to /Users/Dave/.gitignore
+[2K  [ [00;32mOK[0m ] removed /Users/Dave/.gemrc
+[2K  [ [00;32mOK[0m ] linked /Users/Dave/.dotfiles/ruby/gemrc.symlink to /Users/Dave/.gemrc
+[2K  [ [00;32mOK[0m ] removed /Users/Dave/.irbrc
+[2K  [ [00;32mOK[0m ] linked /Users/Dave/.dotfiles/ruby/irbrc.symlink to /Users/Dave/.irbrc
+[2K  [ [00;32mOK[0m ] removed /Users/Dave/.vimrc
+[2K  [ [00;32mOK[0m ] linked /Users/Dave/.dotfiles/vim/vimrc.symlink to /Users/Dave/.vimrc
+[2K  [ [00;32mOK[0m ] removed /Users/Dave/.zshrc
+[2K  [ [00;32mOK[0m ] linked /Users/Dave/.dotfiles/zsh/zshrc.symlink to /Users/Dave/.zshrc
+  [ [00;34m..[0m ] installing dependencies^C[2K  [ [00;32mOK[0m ] dependencies installed
+
+  All installed!
+[1m[7m%[27m[1m[0m                                                                                ]2;n1-22-48[0m[27m[24m[J
+[01;33m2.0.0[00m in [01;36m.dotfiles/[00m on [01;31mmaster[00m 
+› [K[77C[01;36m[00m[77Dggs
+## [32mmaster[m
+ [31mD[m "sublime2/User/Base File.sublime-settings"
+ [31mD[m "sublime2/User/Default (Linux).sublime-keymap"
+ [31mD[m "sublime2/User/Default (OSX).sublime-keymap"
+ [31mD[m "sublime2/User/Default (Windows).sublime-keymap"
+ [31mD[m sublime2/User/Global.sublime-settings
+ [31mD[m sublime2/User/Preferences.sublime-settings
+ [31mD[m sublime2/copy
+ [31mD[m sublime2/setup
+[31m??[m bootstrap
+[31m??[m sublime3/
+[1m[7m%[27m[1m[0m                                                                                ]2;n1-22-48[0m[27m[24m[J
+[01;33m2.0.0[00m in [01;36m.dotfiles/[00m on [01;31mmaster[00m 
+› [K[77C[01;36m[00m[77Dggit add .
+[1m[7m%[27m[1m[0m                                                                                ]2;n1-22-48[0m[27m[24m[J
+[01;33m2.0.0[00m in [01;36m.dotfiles/[00m on [01;31mmaster[00m 
+› [K[77C[01;36m[00m[77Dggca -m "upg dated to suble 3"
