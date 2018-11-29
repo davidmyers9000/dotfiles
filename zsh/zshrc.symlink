@@ -46,3 +46,19 @@ unset config_files
 
 # Set path variable to find jekyll gems
 PATH=$PATH:/opt/boxen/rbenv/versions/2.0.0-p247/bin
+
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export EDITOR="subl"
+export PATH="$HOME/.nodenv/bin:$PATH"
+
+export AZURE_HOST="waws-prod-blu-091.ftp.azurewebsites.windows.net"
+export AZURE_PATH="site/wwwroot"
+export AZURE_USER="`security find-generic-password -w -s AZURE_USER`"
+export AZURE_PASS="`security find-generic-password -w -s AZURE_PASS`"
+
+export BIOMED_HOST="biomed.drexel.edu"
+export BIOMED_PATH="/"
+export BIOMED_USER="`security find-generic-password -w -s BIOMED_USER`"
+export BIOMED_PASS="`security find-generic-password -w -s BIOMED_PASS`"
+
+alias tux='ssh drm68@tux.cs.drexel.edu'

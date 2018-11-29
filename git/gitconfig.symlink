@@ -4,8 +4,8 @@
 [hub]
         protocol = https
 [user]
-        name = David Myers
-        email = davidmyers9000@gmail.com
+	name = David Myers
+	email = davidmyers9000@gmail.com
 [credential]
 	helper = osxkeychain
 [alias]
